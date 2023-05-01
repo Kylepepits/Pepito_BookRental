@@ -100,7 +100,7 @@ class RegisterScreen extends StatelessWidget {
                   filled: true,
                   constraints: BoxConstraints.tightFor(width: 327, height: 50),
                   hintStyle: TextStyle(color: Colors.grey),
-                  hintText: 'Username',
+                  hintText: 'ID Number',
                 ),
               ),
               SizedBox(

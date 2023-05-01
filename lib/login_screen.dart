@@ -47,7 +47,7 @@ class LoginScreen extends StatelessWidget {
                       constraints:
                           BoxConstraints.tightFor(width: 327, height: 50),
                       hintStyle: TextStyle(color: Colors.grey),
-                      hintText: 'Phone number, email or username',
+                      hintText: 'ID Number',
                     ),
                   ),
                   SizedBox(
