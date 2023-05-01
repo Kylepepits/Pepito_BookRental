@@ -1,6 +1,6 @@
+import 'package:bookstore/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:bookstore/bookstore.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.catamaranTextTheme(),
       ),
       debugShowCheckedModeBanner: false,
-      home: Bookstore(),
+      home: LoginScreen(),
     );
   }
 }
